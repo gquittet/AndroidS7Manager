@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/et_dialog_automate_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_dialog_automate_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="@string/ipDigits"
+        android:hint="@string/IP"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_dialog_automate_rack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Rack"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_dialog_automate_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Slot"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_dialog_automate_databloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/DataBloc"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/sp_dialog_automate_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/arrayAutomateType" />
+
+</LinearLayout>

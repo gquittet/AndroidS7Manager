@@ -1,0 +1,176 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tl_level_states"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="60dp"
+    android:layout_marginStart="60dp"
+    android:stretchColumns="1">
+
+    <TableRow android:layout_marginBottom="7dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/Mode"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_mode"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="7dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/RemoteConnection"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_remoteConnection"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/tv_level_vanne1Label"
+            android:layout_column="1"
+            android:text="@string/ValveNumber"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_vanne1"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/tv_level_vanne2Label"
+            android:layout_column="1"
+            android:text="@string/ValveNumber"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_vanne2"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/tv_level_vanne3Label"
+            android:layout_column="1"
+            android:text="@string/ValveNumber"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_vanne3"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/tv_level_vanne4Label"
+            android:layout_column="1"
+            android:text="@string/ValveNumber"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_vanne4"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="13dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/LiquidLevel"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_liquidLevel"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="7dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/SetpointAuto"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_setpointAuto"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="7dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/SetpointManual"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_setpointManual"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="14dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/WordOfValvePilot"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_level_wordOfValvePilot"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btn_level_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:onClick="onPillClickManager"
+        android:text="@string/Writing" />
+
+</TableLayout>

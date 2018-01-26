@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="50dp"
+    android:layout_marginStart="50dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="be.heh.pillule.activities.PillActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DBB2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb2_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb2_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb2_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="DBB6" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb3_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb3_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+
+        <CheckBox
+            android:id="@+id/ch_level_dbb3_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPillClickManager" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_level_dbw24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="DBW24"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/et_level_dbw26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DBW26"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/et_level_dbw28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DBW28"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/et_level_dbw30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DBW30"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/btn_level_goBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:onClick="onPillClickManager"
+        android:text="@string/Reading" />
+
+</LinearLayout>

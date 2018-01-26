@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.EditUserActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-25dp"
+        android:text="@string/Edit"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_edituser_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/Firstname"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/et_edituser_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/Lastname"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/et_edituser_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/et_edituser_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/et_edituser_password_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/Password_confirm"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginEnd="25dp"
+            android:textSize="20sp"
+            android:text="@string/Role" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_edituser_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="@string/Read"/>
+
+            <RadioButton
+                android:id="@+id/rb_edituser_write"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Write"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_edituser_edit"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_bg"
+        android:onClick="onEditUserClickManager"
+        android:text="@string/Edit"
+        android:textColor="@drawable/button_fg"
+        android:textSize="15sp" />
+
+</LinearLayout>

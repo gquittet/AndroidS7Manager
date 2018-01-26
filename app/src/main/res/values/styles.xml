@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:editTextStyle">@style/MyEditText</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@color/primaryDarkColor</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitle</item>
+    </style>
+
+    <style name="MyActionBarTitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="MyEditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:textColorHighlight">@color/primaryLightColor</item>
+    </style>
+
+</resources>

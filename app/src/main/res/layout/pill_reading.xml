@@ -1,0 +1,157 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tl_pill_states"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="60dp"
+    android:layout_marginStart="60dp"
+    android:stretchColumns="1"
+    android:visibility="visible">
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/Running"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_pill_runState"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/GenBottles"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_pill_genBottlesState"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/RemoteConnection"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_pill_localRemote"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/EnginePills"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_pill_enginePill"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/EngineStrip"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_pill_engineStrip"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/BottleBottle"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_pill_plug"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/Bottles"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_pill_bottleNumber"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/PillsAsk"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_pill_pillAsk"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_column="1"
+            android:text="@string/Pills"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_pill_pillNumber"
+            android:gravity="end"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btn_pill_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:onClick="onPillClickManager"
+        android:text="@string/Writing" />
+
+</TableLayout>

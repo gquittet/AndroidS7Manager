@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ab_user_automate_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_light"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:title="@string/Search" />
+
+    <item
+        android:id="@+id/ab_user_automate_add"
+        android:icon="@drawable/ic_add_light"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:title="@string/Add" />
+
+    <item
+        android:id="@+id/ab_user_automate_remove"
+        android:icon="@drawable/ic_remove_light"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"
+        android:title="@string/Remove" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/ab_user_automate_quit"
+        android:showAsAction="never"
+        android:title="@string/Quit" />
+</menu>

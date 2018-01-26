@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Gestionnaire d\'automates</string>
+
+    <string name="errAutomateNotFound">Impossible de trouver l\'automate.</string>
+    <string name="errConnection">Veuillez vous connecter au réseau.</string>
+    <string name="errConnectionLost">La connexion a été perdue.</string>
+    <string name="errDataBlocIncorrect">Veuillez entrer un numéro de data bloc correct.</string>
+    <string name="errEmailAlreadyExist">Un compte est déjà lié à cette adresse courriel.</string>
+    <string name="errEmailInvalid">Veuillez rentrer une adresse courriel valide.</string>
+    <string name="errIPInvalid">Veuillez rentrer une adresse IP valide.</string>
+    <string name="errNameInvalid">Entrez un nom correct.</string>
+    <string name="errNoAutomate">Vous devez d\'abord ajouter un automate de ce type.</string>
+    <string name="errPasswordInvalid">Le mot de passe doit contenir au minimum 8 caractères dont 1 chiffre, 1 minuscule, 1 majuscule et 1 caractère spécial.</string>
+    <string name="errPasswordMismatch">Les mots de passes doivent être identiques.</string>
+    <string name="errRackInvalid">Veuillez entrer l\'identifiant correct du rack.</string>
+    <string name="errSlotInvalid">Veuillez entrer l\'identifiant correct du slot.</string>
+    <string name="errUserNotFound">Utilisateur non trouvé.</string>
+
+    <string name="stateConnected">Connecté</string>
+    <string name="stateSignUpSuccessful">Inscription validée</string>
+
+    <string name="Administration">Administration</string>
+    <string name="Administrator">Administrateur</string>
+    <string name="Add">Ajouter</string>
+    <string name="Automate">Automate</string>
+    <string name="Automatic">Automatique</string>
+    <string name="Back">Retour</string>
+    <string name="BottleBottle">Bouchonne</string>
+    <string name="Bottle">Bouteille</string>
+    <string name="Bottles">Flacons</string>
+    <string name="Cancel">Annuler</string>
+    <string name="click_here">cliquez ici</string>
+    <string name="Close">Fermer</string>
+    <string name="Connection">Connexion</string>
+    <string name="DataBloc">Data Bloc (DBx)</string>
+    <string name="Delete">Supprimer</string>
+    <string name="Disconnect">Déconnexion</string>
+    <string name="Edit">Modifier</string>
+    <string name="Email">Adresse courriel</string>
+    <string name="EnginePills">Moteur distributeur</string>
+    <string name="EngineStrip">Moteur bande</string>
+    <string name="Firstname">Prénom</string>
+    <string name="GenBottles">Gen. Flacons</string>
+    <string name="IP">Adresse IP</string>
+    <string name="Lastname">Nom de famille</string>
+    <string name="LiquidLevel">Niveau de liquide</string>
+    <string name="LocalRemote">Local/Distant</string>
+    <string name="Local">Local</string>
+    <string name="Manual">Manuel</string>
+    <string name="Mode">Mode</string>
+    <string name="Name">Nom</string>
+    <string name="No">Non</string>
+    <string name="On">ON</string>
+    <string name="Off">OFF</string>
+    <string name="OrderAuto">Consigne Auto</string>
+    <string name="OrderManually">Consigne Manuelle</string>
+    <string name="Password">Mot de passe</string>
+    <string name="Password_confirm">Mot de passe (Confirmation)</string>
+    <string name="Pill">Pilule</string>
+    <string name="Pills">Pilules</string>
+    <string name="PillsAsk">Pilules demandées</string>
+    <string name="Quit">Quitter</string>
+    <string name="Rack">Rack</string>
+    <string name="Read">Lecture</string>
+    <string name="Reading">Lire</string>
+    <string name="Remote">Distant</string>
+    <string name="RemoteConnection">Connexion distante</string>
+    <string name="Remove">Supprimer</string>
+    <string name="Role">Role</string>
+    <string name="Running">En service</string>
+    <string name="Search">Rechercher</string>
+    <string name="SetpointAuto">Consigne automatique</string>
+    <string name="SetpointManual">Consigne manuelle</string>
+    <string name="SignIn">Connexion</string>
+    <string name="SignUp">Inscription</string>
+    <string name="Slot">Slot</string>
+    <string name="Sort">Trier</string>
+    <string name="Valve">Vanne</string>
+    <string name="ValveNumber">Vanne no%1$d</string>
+    <string name="ValvePilotWord">Mot de pilotage vanne</string>
+    <string name="WordOfValvePilot">Mot de pilotage vanne</string>
+    <string name="Write">Écriture</string>
+    <string name="Writing">Écrire</string>
+    <string name="Yes">Oui</string>
+
+    <string name="NoAccount">Si vous n\'avez pas de compte,&#160;</string>
+    <string name="AlreadyAccount">Si vous avez déjà un compte,&#160;</string>
+
+    <string name="userMenuButtonAutomate">Gérer les automates</string>
+    <string name="userMenuButtonPill">Gérer les pilules</string>
+    <string name="userMenuButtonLiquidLevel">Gérer le niveau de liquide</string>
+    <string name="userMenuInfoAutomate">Vous pouvez ajouter et gérer les différents automates de votre entreprise. Vous pourrez ainsi configurer l\'adresse IP, le rack et le slot pour chacun d\'eux.</string>
+    <string name="userMenuInfoLiquidLevel">Vous pouvez vous connecter à un automate afin de vérifier et contrôler le niveau de liquide contenu dans le silot ainsi que dans les contenants.</string>
+    <string name="userMenuInfoPill">Vous pouvez vous connecter à un automate afin de vérifier et contrôler le remplissage des contenants qui vont accueillir les pillules.</string>
+    <string name="ipDigits">0123456789.</string>
+
+    <string-array name="arrayAutomateType">
+        <item>Pilule</item>
+        <item>Niveau</item>
+        <item>Multi-fonctions</item>
+    </string-array>
+</resources>
